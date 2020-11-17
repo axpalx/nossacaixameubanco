@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="box-center">
+    <h3>{{ modalitySingle.modality }}</h3>
+    <p><strong>Vencimento: </strong>{{ modalitySingle.duedate }}</p>
+    <p><strong>Rentabilidade: </strong>{{ modalitySingle.profitability }}</p>
+    <p><strong>Valor Mínimo: </strong>{{ modalitySingle.minvalue }}</p>
+    <p><strong>Valor inteiro: </strong>{{ modalitySingle.integervalue }}</p>
+    <button (click)="purchase(modalitySingle.id)">Comprar título</button>
+  </div>
+</div>

@@ -1,0 +1,28 @@
+<form [formGroup]="formLogin">
+  <div class="form-row align-items-center">
+    <div class="col-auto my-1">
+      <div class="form-check">
+        <label class="form-check-label"> <b>Acesse</b> sua conta </label>
+        <input
+          type="text"
+          class="form-control"
+          formControlName="cpf"
+          placeholder="Digite seu CPF"
+          maxlength="11"
+        />
+      </div>
+    </div>
+    <div class="col-auto my-1">
+      <button
+        id="Raised"
+        type="button"
+        mat-button
+        class="btn btn-primary access-account"
+        (click)="login()"
+      >
+        Acessar
+      </button>
+      <bkg-buttonmat></bkg-buttonmat>
+    </div>
+  </div>
+</form>

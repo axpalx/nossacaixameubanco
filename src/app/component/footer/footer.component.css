@@ -1,0 +1,23 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.topic {
+  width: 100vw;
+  height: 20vh;
+  background: #000;
+  color: rgba(255, 255, 255, 0.6) !important;
+  padding: 30px 90px;
+}
+.topic h6 {
+  color: #fff;
+}
+.topic li {
+  list-style: none;
+  line-height: 2;
+}
+.footer {
+  background: #ddd;
+  height: 5vh;
+}
+.footer p {
+  padding-top: 6px;
+}

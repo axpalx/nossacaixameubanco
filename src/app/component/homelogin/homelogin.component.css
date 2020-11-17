@@ -1,0 +1,16 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+mat-card {
+  height: auto;
+  background-color: #eb871a;
+}
+h3,
+h5,
+p,
+b {
+  font-family: "Montserrat", sans-serif;
+}
+
+.custom-height {
+  height: 58vh;
+}

@@ -1,0 +1,17 @@
+<div class="container custom-height">
+  <p>
+    Bem vindo <strong>{{ nameClient }}</strong>
+  </p>
+  <div class="row mt-5">
+    <div class="col-sm" *ngFor="let mod of modality">
+      <mat-card>
+        <strong>Título:</strong> {{ mod.modality }}<br />
+        <strong>Vencimento:</strong> {{ mod.duedate }}<br />
+        <strong>Rentabilidade:</strong> {{ mod.profitability }}<br />
+        <strong>Valor mínimo:</strong> {{ mod.minvalue }}<br />
+        <strong>Valor inteiro:</strong> {{ mod.integervalue }}<br />
+        <button class="button" (click)="investment(mod.id)">Investir</button>
+      </mat-card>
+    </div>
+  </div>
+</div>

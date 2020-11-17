@@ -1,0 +1,62 @@
+<div class="container">
+  <div class="row box-addclient">
+    <div class="col-12">
+      <h3 class="text-center">Venha, falta pouco para se tornar cliente.</h3>
+      <form class="mt-5" (ngSubmit)="addClient()" [formGroup]="formAddClient">
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control addclient"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Nome"
+            formControlName="name"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="number"
+            class="form-control addclient"
+            id="exampleInputPassword1"
+            placeholder="CPF"
+            formControlName="cpf"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="email"
+            class="form-control addclient"
+            id="exampleInputPassword1"
+            placeholder="E-mail"
+            formControlName="email"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="tel"
+            class="form-control addclient"
+            id="exampleInputPassword1"
+            placeholder="Telefone"
+            formControlName="phone"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control addclient"
+            id="exampleInputPassword1"
+            placeholder="Endereço"
+            formControlName="address"
+          />
+        </div>
+        <button
+          type="submit"
+          class="btn btn-addclient btn-lg"
+          (click)="addClient()"
+        >
+          Cadastrar
+        </button>
+      </form>
+    </div>
+  </div>
+</div>

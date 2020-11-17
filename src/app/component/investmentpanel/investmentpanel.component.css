@@ -1,0 +1,16 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.container {
+  width: 100vw;
+  height: 53vh;
+  z-index: -9999;
+  top: -60px;
+}
+
+.custom-height {
+  height: 80vh;
+}
+
+.box-center {
+  margin: 50px;
+}
