@@ -1,12 +1,11 @@
-import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
-import { Modality } from 'src/app/modality.service';
-import { UserService } from 'src/app/user.service';
+import { Component, OnInit } from "@angular/core";
+import { Modality } from "src/app/modality.service";
+import { UserService } from "src/app/user.service";
 
 @Component({
-  selector: 'bkg-investmentpanel',
-  templateUrl: './investmentpanel.component.html',
-  styleUrls: ['./investmentpanel.component.css'],
+  selector: "bkg-investmentpanel",
+  templateUrl: "./investmentpanel.component.html",
+  styleUrls: ["./investmentpanel.component.css"],
 })
 export class InvestmentpanelComponent implements OnInit {
   modalitySingle;
