@@ -6,6 +6,7 @@ import { AuthService } from "../app/services/auth.service";
 import { MatDialogModule } from "@angular/material/dialog";
 import { MatIconModule } from "@angular/material/icon";
 import { MatButtonModule } from "@angular/material/button";
+import { MatCardModule } from "@angular/material/card";
 
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
@@ -20,7 +21,6 @@ import { LoginComponent } from "./component/login/login.component";
 import { ErroraddclientComponent } from "./component/erroraddclient/erroraddclient.component";
 import { InvestmentComponent } from "./component/investment/investment.component";
 import { InvestmentpanelComponent } from "./component/investmentpanel/investmentpanel.component";
-import { MatCardModule } from "@angular/material/card";
 
 @NgModule({
   declarations: [
