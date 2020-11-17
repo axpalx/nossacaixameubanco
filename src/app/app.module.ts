@@ -4,6 +4,8 @@ import { AuthGuard } from "../app/services/auth.guard";
 import { AuthService } from "../app/services/auth.service";
 
 import { MatDialogModule } from "@angular/material/dialog";
+import { MatIconModule } from "@angular/material/icon";
+import { MatButtonModule } from "@angular/material/button";
 
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
@@ -19,7 +21,6 @@ import { ErroraddclientComponent } from "./component/erroraddclient/erroraddclie
 import { InvestmentComponent } from "./component/investment/investment.component";
 import { InvestmentpanelComponent } from "./component/investmentpanel/investmentpanel.component";
 import { MatCardModule } from "@angular/material/card";
-import { MatProgressBarModule } from "@angular/material/progress-bar";
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { MatProgressBarModule } from "@angular/material/progress-bar";
     ReactiveFormsModule,
     MatDialogModule,
     MatCardModule,
-    MatProgressBarModule,
+    MatButtonModule,
+    MatIconModule,
   ],
   providers: [AuthGuard, AuthService],
   bootstrap: [AppComponent],
