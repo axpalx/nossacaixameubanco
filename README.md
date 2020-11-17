@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
 
-![alt text](https://github.com/axpalx/nossacaixameubanco/blob/nossacaixameubanco/Telaprincipal.png?raw=true)
+![alt text](https://github.com/axpalx/nossacaixameubanco/blob/master/src/assets/images/Telaprincipal.png?raw=true)
 
 ## Development server
 
