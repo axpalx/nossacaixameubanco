@@ -1,5 +1,9 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 
+.container {
+  height: 100vh;
+}
+
 mat-card {
   height: auto;
   background-color: #eb871a;
@@ -12,5 +16,5 @@ b {
 }
 
 .custom-height {
-  height: 58vh;
+  height: 60vh;
 }
